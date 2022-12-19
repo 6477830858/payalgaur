@@ -1,5 +1,6 @@
 package Pom;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
@@ -13,69 +14,66 @@ public class Amazon_Actions {
 	WebDriver driver;
 	CommonMethod common = new CommonMethod(DriverManager.getdriver());
 	@CacheLookup
-	@FindBy(xpath="//i[@class='hm-icon nav-sprite']")
-	 public WebElement HamburgerMenu;
-	
+	@FindBy(xpath = "//i[@class='hm-icon nav-sprite']")
+	public WebElement HamburgerMenu;
+
 	@CacheLookup
-	@FindBy(xpath="//a[@class='hmenu-item' and @data-menu-id='4']")
-	 public WebElement Kindle;
+	@FindBy(xpath = "//a[@class='hmenu-item' and @data-menu-id='4']")
+	public WebElement Kindle;
 	@CacheLookup
-	@FindBy(xpath="//a[contains(text(),'Introducing Kindle Scribe')]")
-	 public WebElement KindleScribe;
+	@FindBy(xpath = "//a[contains(text(),'Introducing Kindle Scribe')]")
+	public WebElement KindleScribe;
 	@CacheLookup
-	@FindBy(xpath ="//input[@id='buy-now-button']")
+	@FindBy(xpath = "//input[@id='buy-now-button']")
 	WebElement BuyNow;
 	@CacheLookup
-	@FindBy(xpath=" //label[@class='a-form-label']")
-	 public WebElement EmailPhone;
-	
-	
-	
+	@FindBy(xpath = " //label[@class='a-form-label']")
+	public WebElement EmailPhone;
+
 	// constructor of class
-	public Amazon_Actions(WebDriver driver)
-	{
+	public Amazon_Actions(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
-	public  void Hamburgerclick() 
-	
-	{  
-		
+
+	public void Hamburgerclick()
+
+	{
+
 		clickelement(HamburgerMenu);
 	}
-	public void kindleclick() throws InterruptedException {
-		Thread.sleep(3000);
+
+	public void kindleclick() {
+		
 		clickelement(Kindle);
 	}
-	
-	public void  kindlescribeclick()
-	{
+
+	public void kindlescribeclick() {
 		clickelement(KindleScribe);
 	}
-	public void BuyNowClick() 
-	{
-		
+
+	public void BuyNowClick() {
+
 		clickelement(BuyNow);
-		
+
 	}
-	public void clickelement(WebElement ele) 
-	{
-		
-		
+	public boolean iselementenabled(WebElement ele ) {
+		try {
+			common.waitforelement(ele);
+			ele.isEnabled();
+			return true;
+		} catch (NoSuchElementException e) {
+			System.out.println(e);
+			return false;
+		}
+	}
+
+	public void clickelement(WebElement ele) {
 		common.higlightelement(ele);
-		common.waitforelement(ele);
-		//try {
-		if(ele.isEnabled()) {
-		
-			ele.click();
-		}
-		else
-		{
-			System.out.println("element is not disabled");
-		}
-		//}catch(Exception e) {
-			//System.out.println(e);
-		}
+		iselementenabled(ele);
+		ele.click();
 	}
+	}
+
 
 

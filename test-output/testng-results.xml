@@ -1,316 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="0" failed="0" skipped="18">
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-17T19:13:45 EST" name="Suite" finished-at="2022-12-17T19:13:45 EST" duration-ms="136">
+  <suite started-at="2022-12-18T21:55:28 EST" name="Suite" finished-at="2022-12-18T21:56:13 EST" duration-ms="45654">
     <groups>
     </groups>
-    <test started-at="2022-12-17T19:13:45 EST" name="Amazon1" finished-at="2022-12-17T19:13:45 EST" duration-ms="59">
+    <test started-at="2022-12-18T21:55:28 EST" name="Amazon_Firefox" finished-at="2022-12-18T21:55:41 EST" duration-ms="13616">
       <class name="Test.Amazon_Test">
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test.Amazon_Test@6e20b53a]" started-at="2022-12-17T19:13:45 EST" name="beforeclass" finished-at="2022-12-17T19:13:45 EST" duration-ms="23" status="PASS">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:Test.Amazon_Test@5b1669c0]" started-at="2022-12-18T21:55:28 EST" name="beforeTest" finished-at="2022-12-18T21:55:35 EST" duration-ms="7134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.ca/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test.Amazon_Test@5b1669c0]" started-at="2022-12-18T21:55:35 EST" name="beforeclass" finished-at="2022-12-18T21:55:35 EST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method signature="f()[pri:0, instance:Test.Amazon_Test@6e20b53a]" started-at="2022-12-17T19:13:45 EST" name="f" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method signature="VerifyUrl()[pri:1, instance:Test.Amazon_Test@6e20b53a]" started-at="2022-12-17T19:13:45 EST" name="VerifyUrl" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
+        <test-method signature="VerifyUrl()[pri:1, instance:Test.Amazon_Test@5b1669c0]" started-at="2022-12-18T21:55:35 EST" name="VerifyUrl" finished-at="2022-12-18T21:55:35 EST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyUrl -->
-        <test-method signature="verifyHamBurgermenuclick()[pri:2, instance:Test.Amazon_Test@6e20b53a]" started-at="2022-12-17T19:13:45 EST" name="verifyHamBurgermenuclick" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyHamBurgermenuclick()[pri:2, instance:Test.Amazon_Test@5b1669c0]" started-at="2022-12-18T21:55:35 EST" name="verifyHamBurgermenuclick" finished-at="2022-12-18T21:55:35 EST" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHamBurgermenuclick -->
-        <test-method signature="verifykidle()[pri:3, instance:Test.Amazon_Test@6e20b53a]" started-at="2022-12-17T19:13:45 EST" name="verifykidle" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
+        <test-method signature="verifykidle()[pri:3, instance:Test.Amazon_Test@5b1669c0]" started-at="2022-12-18T21:55:35 EST" name="verifykidle" finished-at="2022-12-18T21:55:36 EST" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifykidle -->
-        <test-method signature="verifykindleScribe()[pri:4, instance:Test.Amazon_Test@6e20b53a]" started-at="2022-12-17T19:13:45 EST" name="verifykindleScribe" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
+        <test-method signature="verifykindleScribe()[pri:4, instance:Test.Amazon_Test@5b1669c0]" started-at="2022-12-18T21:55:36 EST" name="verifykindleScribe" finished-at="2022-12-18T21:55:38 EST" duration-ms="2715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifykindleScribe -->
-        <test-method signature="verifyBuynow()[pri:5, instance:Test.Amazon_Test@6e20b53a]" started-at="2022-12-17T19:13:45 EST" name="verifyBuynow" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
+        <test-method signature="verifyBuynow()[pri:5, instance:Test.Amazon_Test@5b1669c0]" started-at="2022-12-18T21:55:38 EST" name="verifyBuynow" finished-at="2022-12-18T21:55:40 EST" duration-ms="1362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBuynow -->
-      </class> <!-- Test.Amazon_Test -->
-    </test> <!-- Amazon1 -->
-    <test started-at="2022-12-17T19:13:45 EST" name="Amazon2" finished-at="2022-12-17T19:13:45 EST" duration-ms="12">
-      <class name="Test.Amazon_Test">
-        <test-method signature="f()[pri:0, instance:Test.Amazon_Test@10e31a9a]" started-at="2022-12-17T19:13:45 EST" name="f" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
+        <test-method signature="verifysinginpage()[pri:6, instance:Test.Amazon_Test@5b1669c0]" started-at="2022-12-18T21:55:40 EST" name="verifysinginpage" finished-at="2022-12-18T21:55:40 EST" duration-ms="84" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test.Amazon_Test@10e31a9a]" started-at="2022-12-17T19:13:45 EST" name="beforeclass" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method signature="VerifyUrl()[pri:1, instance:Test.Amazon_Test@10e31a9a]" started-at="2022-12-17T19:13:45 EST" name="VerifyUrl" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyUrl -->
-        <test-method signature="verifyHamBurgermenuclick()[pri:2, instance:Test.Amazon_Test@10e31a9a]" started-at="2022-12-17T19:13:45 EST" name="verifyHamBurgermenuclick" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHamBurgermenuclick -->
-        <test-method signature="verifykidle()[pri:3, instance:Test.Amazon_Test@10e31a9a]" started-at="2022-12-17T19:13:45 EST" name="verifykidle" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifykidle -->
-        <test-method signature="verifykindleScribe()[pri:4, instance:Test.Amazon_Test@10e31a9a]" started-at="2022-12-17T19:13:45 EST" name="verifykindleScribe" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifykindleScribe -->
-        <test-method signature="verifyBuynow()[pri:5, instance:Test.Amazon_Test@10e31a9a]" started-at="2022-12-17T19:13:45 EST" name="verifyBuynow" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBuynow -->
-      </class> <!-- Test.Amazon_Test -->
-    </test> <!-- Amazon2 -->
-    <test started-at="2022-12-17T19:13:45 EST" name="Amazon3" finished-at="2022-12-17T19:13:45 EST" duration-ms="13">
-      <class name="Test.Amazon_Test">
-        <test-method is-config="true" signature="beforesuit(java.lang.String,java.lang.String)[pri:0, instance:Test.Amazon_Test@77847718]" started-at="2022-12-17T19:13:44 EST" name="beforesuit" finished-at="1969-12-31T19:00:00 EST" duration-ms="-1671322424992" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforesuit -->
-        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test.Amazon_Test@77847718]" started-at="2022-12-17T19:13:45 EST" name="beforeclass" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeclass -->
-        <test-method signature="f()[pri:0, instance:Test.Amazon_Test@77847718]" started-at="2022-12-17T19:13:45 EST" name="f" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method signature="VerifyUrl()[pri:1, instance:Test.Amazon_Test@77847718]" started-at="2022-12-17T19:13:45 EST" name="VerifyUrl" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyUrl -->
-        <test-method signature="verifyHamBurgermenuclick()[pri:2, instance:Test.Amazon_Test@77847718]" started-at="2022-12-17T19:13:45 EST" name="verifyHamBurgermenuclick" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHamBurgermenuclick -->
-        <test-method signature="verifykidle()[pri:3, instance:Test.Amazon_Test@77847718]" started-at="2022-12-17T19:13:45 EST" name="verifykidle" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifykidle -->
-        <test-method signature="verifykindleScribe()[pri:4, instance:Test.Amazon_Test@77847718]" started-at="2022-12-17T19:13:45 EST" name="verifykindleScribe" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifykindleScribe -->
-        <test-method signature="verifyBuynow()[pri:5, instance:Test.Amazon_Test@77847718]" started-at="2022-12-17T19:13:45 EST" name="verifyBuynow" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeSuite on method beforesuit but has not been marked @Optional or defined
-in C:\Users\gaurp\eclipse-workspace\ProjectofAmazon\testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:267)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyBuynow -->
-        <test-method is-config="true" signature="aftersuit()[pri:0, instance:Test.Amazon_Test@77847718]" started-at="2022-12-17T19:13:45 EST" name="aftersuit" finished-at="2022-12-17T19:13:45 EST" duration-ms="0" status="SKIP">
+        </test-method> <!-- verifysinginpage -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:Test.Amazon_Test@5b1669c0]" started-at="2022-12-18T21:55:40 EST" name="aftersuit" finished-at="2022-12-18T21:55:41 EST" duration-ms="1378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftersuit -->
       </class> <!-- Test.Amazon_Test -->
-    </test> <!-- Amazon3 -->
+    </test> <!-- Amazon_Firefox -->
+    <test started-at="2022-12-18T21:55:41 EST" name="Amazon_Chrome" finished-at="2022-12-18T21:55:55 EST" duration-ms="13734">
+      <class name="Test.Amazon_Test">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:Test.Amazon_Test@273444fe]" started-at="2022-12-18T21:55:41 EST" name="beforeTest" finished-at="2022-12-18T21:55:47 EST" duration-ms="5176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.ca/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test.Amazon_Test@273444fe]" started-at="2022-12-18T21:55:47 EST" name="beforeclass" finished-at="2022-12-18T21:55:47 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="VerifyUrl()[pri:1, instance:Test.Amazon_Test@273444fe]" started-at="2022-12-18T21:55:47 EST" name="VerifyUrl" finished-at="2022-12-18T21:55:47 EST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUrl -->
+        <test-method signature="verifyHamBurgermenuclick()[pri:2, instance:Test.Amazon_Test@273444fe]" started-at="2022-12-18T21:55:47 EST" name="verifyHamBurgermenuclick" finished-at="2022-12-18T21:55:47 EST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHamBurgermenuclick -->
+        <test-method signature="verifykidle()[pri:3, instance:Test.Amazon_Test@273444fe]" started-at="2022-12-18T21:55:47 EST" name="verifykidle" finished-at="2022-12-18T21:55:47 EST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifykidle -->
+        <test-method signature="verifykindleScribe()[pri:4, instance:Test.Amazon_Test@273444fe]" started-at="2022-12-18T21:55:47 EST" name="verifykindleScribe" finished-at="2022-12-18T21:55:52 EST" duration-ms="4619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifykindleScribe -->
+        <test-method signature="verifyBuynow()[pri:5, instance:Test.Amazon_Test@273444fe]" started-at="2022-12-18T21:55:52 EST" name="verifyBuynow" finished-at="2022-12-18T21:55:55 EST" duration-ms="2600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuynow -->
+        <test-method signature="verifysinginpage()[pri:6, instance:Test.Amazon_Test@273444fe]" started-at="2022-12-18T21:55:55 EST" name="verifysinginpage" finished-at="2022-12-18T21:55:55 EST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysinginpage -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:Test.Amazon_Test@273444fe]" started-at="2022-12-18T21:55:55 EST" name="aftersuit" finished-at="2022-12-18T21:55:55 EST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- Test.Amazon_Test -->
+    </test> <!-- Amazon_Chrome -->
+    <test started-at="2022-12-18T21:55:55 EST" name="Amazon3_Edge" finished-at="2022-12-18T21:56:13 EST" duration-ms="18228">
+      <class name="Test.Amazon_Test">
+        <test-method is-config="true" signature="beforeTest(java.lang.String,java.lang.String)[pri:0, instance:Test.Amazon_Test@5524cca1]" started-at="2022-12-18T21:55:55 EST" name="beforeTest" finished-at="2022-12-18T21:56:02 EST" duration-ms="6676" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.ca/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test.Amazon_Test@5524cca1]" started-at="2022-12-18T21:56:02 EST" name="beforeclass" finished-at="2022-12-18T21:56:02 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="VerifyUrl()[pri:1, instance:Test.Amazon_Test@5524cca1]" started-at="2022-12-18T21:56:02 EST" name="VerifyUrl" finished-at="2022-12-18T21:56:02 EST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUrl -->
+        <test-method signature="verifyHamBurgermenuclick()[pri:2, instance:Test.Amazon_Test@5524cca1]" started-at="2022-12-18T21:56:02 EST" name="verifyHamBurgermenuclick" finished-at="2022-12-18T21:56:02 EST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHamBurgermenuclick -->
+        <test-method signature="verifykidle()[pri:3, instance:Test.Amazon_Test@5524cca1]" started-at="2022-12-18T21:56:02 EST" name="verifykidle" finished-at="2022-12-18T21:56:03 EST" duration-ms="768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifykidle -->
+        <test-method signature="verifykindleScribe()[pri:4, instance:Test.Amazon_Test@5524cca1]" started-at="2022-12-18T21:56:03 EST" name="verifykindleScribe" finished-at="2022-12-18T21:56:12 EST" duration-ms="8821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifykindleScribe -->
+        <test-method signature="verifyBuynow()[pri:5, instance:Test.Amazon_Test@5524cca1]" started-at="2022-12-18T21:56:12 EST" name="verifyBuynow" finished-at="2022-12-18T21:56:13 EST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBuynow -->
+        <test-method signature="verifysinginpage()[pri:6, instance:Test.Amazon_Test@5524cca1]" started-at="2022-12-18T21:56:13 EST" name="verifysinginpage" finished-at="2022-12-18T21:56:13 EST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysinginpage -->
+        <test-method is-config="true" signature="aftersuit()[pri:0, instance:Test.Amazon_Test@5524cca1]" started-at="2022-12-18T21:56:13 EST" name="aftersuit" finished-at="2022-12-18T21:56:13 EST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuit -->
+      </class> <!-- Test.Amazon_Test -->
+    </test> <!-- Amazon3_Edge -->
   </suite> <!-- Suite -->
 </testng-results>

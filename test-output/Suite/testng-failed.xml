@@ -2,58 +2,36 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <parameter name="url" value="https://www.amazon.ca/"/>
-  <test thread-count="5" parallel="classes" name="Amazon1(failed)">
+  <test thread-count="5" parallel="classes" name="Amazon_Firefox(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
       <class name="Test.Amazon_Test">
         <methods>
           <include name="verifykindleScribe"/>
-          <include name="beforesuit"/>
-          <include name="VerifyUrl"/>
-          <include name="verifyHamBurgermenuclick"/>
+          <include name="beforeTest"/>
+          <include name="verifysinginpage"/>
           <include name="verifyBuynow"/>
-          <include name="verifykidle"/>
           <include name="beforeclass"/>
           <include name="aftersuit"/>
-          <include name="f"/>
         </methods>
       </class> <!-- Test.Amazon_Test -->
     </classes>
-  </test> <!-- Amazon1(failed) -->
-  <test thread-count="5" parallel="classes" name="Amazon2(failed)">
+  </test> <!-- Amazon_Firefox(failed) -->
+  <test thread-count="5" parallel="classes" name="Amazon_Chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="Test.Amazon_Test">
         <methods>
           <include name="verifykindleScribe"/>
-          <include name="beforesuit"/>
-          <include name="VerifyUrl"/>
+          <include name="beforeTest"/>
           <include name="verifyHamBurgermenuclick"/>
+          <include name="verifysinginpage"/>
           <include name="verifyBuynow"/>
-          <include name="beforeclass"/>
           <include name="verifykidle"/>
+          <include name="beforeclass"/>
           <include name="aftersuit"/>
-          <include name="f"/>
         </methods>
       </class> <!-- Test.Amazon_Test -->
     </classes>
-  </test> <!-- Amazon2(failed) -->
-  <test thread-count="5" parallel="classes" name="Amazon3(failed)">
-    <parameter name="browser" value="edge"/>
-    <classes>
-      <class name="Test.Amazon_Test">
-        <methods>
-          <include name="verifykindleScribe"/>
-          <include name="beforesuit"/>
-          <include name="VerifyUrl"/>
-          <include name="verifyHamBurgermenuclick"/>
-          <include name="verifyBuynow"/>
-          <include name="aftersuit"/>
-          <include name="beforeclass"/>
-          <include name="verifykidle"/>
-          <include name="f"/>
-        </methods>
-      </class> <!-- Test.Amazon_Test -->
-    </classes>
-  </test> <!-- Amazon3(failed) -->
+  </test> <!-- Amazon_Chrome(failed) -->
 </suite> <!-- Failed suite [Suite] -->

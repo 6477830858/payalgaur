@@ -5,10 +5,15 @@
     <classes>
       <class name="Test.Amazon_Test">
         <methods>
+          <include name="verifykindleScribe"/>
           <include name="beforesuit"/>
+          <include name="VerifyUrl"/>
           <include name="verifyHamBurgermenuclick"/>
+          <include name="verifyBuynow"/>
           <include name="aftersuit"/>
           <include name="beforeclass"/>
+          <include name="verifykidle"/>
+          <include name="f"/>
         </methods>
       </class> <!-- Test.Amazon_Test -->
     </classes>

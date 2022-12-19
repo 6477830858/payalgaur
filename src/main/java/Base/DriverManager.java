@@ -42,7 +42,7 @@ public class DriverManager {
 		System.out.println("this is not correct of browser>>" + browser);}
 	
 	
-		if (url!="") {// 
+		if (url!="") {
 			driver.get(url);
 			System.out.println("this my url" + url);
 	}
